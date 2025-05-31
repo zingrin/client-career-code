@@ -31,7 +31,7 @@ const JobCard = ({ job }) => {
       <div className="card-body">
         <h2 className="card-title">
           {title}
-          <div className="badge badge-secondary">NEW</div>
+          <div className="badge badge-secondary">new</div>
         </h2>
         <p>
           Salary: {salaryRange?.min}-{salaryRange?.max} {salaryRange?.currency}
